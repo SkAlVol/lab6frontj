@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #222;
+}
+
+.user-card {
+    border: 1px solid #bbb;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9fff9;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+
+    min-width: 200px; 
+    max-width: 400px; 
+
+    word-wrap: break-word;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+strong {
+    color: #444;
+}
+
+button, input[type="file"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="file"]:hover {
+    background-color: #004080;
+}
+
+input[type="file"] {
+    margin-right: 10px;
+}
